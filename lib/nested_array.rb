@@ -33,7 +33,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   produce = [
     [ "Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon" ],
-    [ "Strawberries","Potatoes","Grapes","Avocadoes","Asparagus" ]
+    [ "Asparagus", "Avocadoes", "Grapes","Potatoes","Strawberries" ]
   ]
 
   sorted = produce.sort
