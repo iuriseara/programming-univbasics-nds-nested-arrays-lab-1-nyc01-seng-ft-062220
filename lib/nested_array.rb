@@ -41,6 +41,14 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
+  produce = [
+    [ "Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon" ],
+    [ "Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries" ]
+  ]
+
+  produce[matrix]
+  produce[1] = "row"
+  produce[1][1] = "column"
 end
 
 def matrix_update(matrix, row, column, new_value)
